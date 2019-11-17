@@ -6,6 +6,9 @@ resultArr = []
  array.each do |word| 
  resultArr.push(word.reverse)
  end 
+p array
+
+
 
 resultStr = resultArr.join(' ')
 resultStr
