@@ -7,7 +7,7 @@ resultArr = []
  resultArr.push(word.reverse)
  end 
  
- array.map {|word| word.reverse}
+ array.collect {|word| word.reverse}
 
 
 resultStr = resultArr.join(' ')
