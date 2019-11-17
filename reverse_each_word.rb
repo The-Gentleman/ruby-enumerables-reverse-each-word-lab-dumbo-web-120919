@@ -6,8 +6,8 @@ resultArr = []
  array.each do |word| 
  resultArr.push(word.reverse)
  end 
-p array
-
+ 
+ array.map {|word| word.reverse}
 
 
 resultStr = resultArr.join(' ')
